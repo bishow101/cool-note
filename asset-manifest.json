@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cool-note/static/css/main.0a203ba4.chunk.css",
-    "main.js": "/cool-note/static/js/main.05e7fd94.chunk.js",
-    "main.js.map": "/cool-note/static/js/main.05e7fd94.chunk.js.map",
+    "main.js": "/cool-note/static/js/main.dd39873a.chunk.js",
+    "main.js.map": "/cool-note/static/js/main.dd39873a.chunk.js.map",
     "runtime-main.js": "/cool-note/static/js/runtime-main.cc4cc24d.js",
     "runtime-main.js.map": "/cool-note/static/js/runtime-main.cc4cc24d.js.map",
     "static/css/2.800be05e.chunk.css": "/cool-note/static/css/2.800be05e.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.800be05e.chunk.css",
     "static/js/2.3ce6755f.chunk.js",
     "static/css/main.0a203ba4.chunk.css",
-    "static/js/main.05e7fd94.chunk.js"
+    "static/js/main.dd39873a.chunk.js"
   ]
 }
