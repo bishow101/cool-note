@@ -41,7 +41,7 @@ const SignUp = () => {
 					<h3 className="mt-2 text-center mb-4">Sign up</h3>
 					<Form onSubmit={(e) => handleSumbit(e)} className="py-4 w-100 mt-4">
 						<Form.Label>Email address</Form.Label>
-						<Form.Control ref={emailRef} autocomplete className="w-100 mb-4" type="email" />
+						<Form.Control ref={emailRef} autoComplete className="w-100 mb-4" type="email" />
 						<Form.Label>Password</Form.Label>
 						<Form.Control ref={passwordRef} className="w-100 mb-4" type="password" />
 						<Button disabled={loading} className="mt-3 w-100" type="submit">Sign up</Button>

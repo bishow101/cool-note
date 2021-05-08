@@ -61,8 +61,8 @@ const Home = ({ setShowEdit }) => {
 	
 	const fabStyle = {
 		position: "fixed",
-		bottom: "10px",
-		right: "10px",
+		bottom: "6%",
+		right: "5%",
 	}
 	
 	if (!currentUser) {

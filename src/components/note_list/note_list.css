@@ -1,16 +1,13 @@
-::root {
-	
-}
-
 .note-list {
 	display: flex;
 	spacing: 10px;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	padding: 1rem;
+	
 	background: #333a3c;
 	margin-top: calc(50px + 2rem);
+	gap: 20px;
 }
 
 .note-item {
