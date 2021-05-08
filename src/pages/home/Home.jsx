@@ -67,7 +67,10 @@ const Home = ({ setShowEdit }) => {
 	
 	if (!currentUser) {
 		return (
-			<Link style={{ color: "#fff" }} to="/signup">Sign up</Link>		
+			<>
+				<Link className="btn w-50 my-2 px-2 btn-primary text-center" style={{ color: "#fff" }} to="/signup">Sign up</Link>		
+				<Link className="btn w-50 my-2 px-2 btn-primary text-center" style={{ color: "#fff" }} to="/login">Login</Link>		
+			</>
 		)
 	}
 	
