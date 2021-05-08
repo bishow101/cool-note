@@ -1,0 +1,36 @@
+.drawer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	height: 100vh;
+	width: 100%;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 1199;
+}
+
+.drawer-items {
+	width: 100%;
+	background: #3a4447;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	bottom: -50%;
+}
+
+.drawer-items.active {
+	animation: up 0.1s linear forwards;
+}
+
+@keyframes up {
+	from {
+		bottom: -20%;
+	}
+	to {
+		bottom: 0;
+	}
+}

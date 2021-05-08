@@ -1,0 +1,7 @@
+.search-field {
+	flex-grow: 1;
+	outline: none;
+	font-size: 1rem;
+	border: none;
+	background: #f2f2f2;
+}
